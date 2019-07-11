@@ -1,0 +1,1 @@
+﻿Get-WmiObject win32_physicalmemory | Format-Table Manufacturer,Banklabel,Configuredclockspeed,Devicelocator,Capacity,Serialnumber -autosize | Out-File C:\Software\SL-RAMInfo.txt 

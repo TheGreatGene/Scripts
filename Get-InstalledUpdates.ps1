@@ -1,0 +1,1 @@
+﻿wmic qfe list brief /format:htable > c:\Software\hotfix.html
